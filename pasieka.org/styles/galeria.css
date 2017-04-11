@@ -1,0 +1,65 @@
+.inline-box {
+    display: inline-block;
+}
+
+.album-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.album-link:hover {
+    text-decoration: none;
+}
+
+/* ALBUM DATE INFO */
+.album-date-day {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #222;
+    margin-right: 0.3rem;
+}
+
+.album-date-box {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #222;
+    line-height: 1.1rem;
+}
+
+.album-date-year {
+    color: #777;
+}
+
+/* ALBUM COVER PHOTO */
+.img-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.album-link img {
+    transition: all 0.5s ease-in-out;
+}
+
+.album-link:hover img {
+    transform: scale(1.1);
+}
+
+/*ALBUM TITLE */
+.album-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #084ca1;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+
+/* CARDBAR REPAIR */
+#cardbar .flex-container {
+    justify-content: flex-start;
+}
+
+.card-title {
+    display: block;
+}

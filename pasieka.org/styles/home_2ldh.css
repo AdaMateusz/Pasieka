@@ -1,0 +1,39 @@
+header .navbar-header .navbar-brand h1 {
+    background-image: url(../assets/2ldh_logo_white.svg);
+}
+
+/* -- HERO IMAGE -- */
+#hero-image {
+    width: 100%;
+    height: calc(100vh - 54px);
+    background-image: url(../assets/assets_2ldh/hero-image_small.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+@media screen and (min-width: 510px) {
+    #hero-image {
+        background-image: url(../assets/assets_2ldh/hero-image_medium.jpg);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #hero-image {
+        background-image: url(../assets/assets_2ldh/hero-image_large.jpg);
+    }
+}
+
+/* -- MAIN - ABOUT -- */
+#about h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.1rem;
+    color: #084ca1;
+    margin-top: 0;
+}
+
+#about p {
+    font-size: 1.1rem;
+    text-align: justify;
+    padding-top: 1rem;
+}
