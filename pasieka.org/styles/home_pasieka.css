@@ -1,0 +1,205 @@
+.st0{fill:#084CA1;}
+.st1{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+.st2{fill:none;stroke:#FFFFFF;stroke-width:7;stroke-miterlimit:10;}
+.st3{fill:#FFFFFF;}
+.st4{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+.st5{opacity:0.5;fill:#FFFFFF;enable-background:new    ;}
+.st6{display:none;fill:#FFFFFF;}
+
+svg > a > .hexagon,
+svg > a > .hexagon > path {
+    transition: all 0.2s ease-in;
+}
+
+svg > a:hover > .hexagon,
+svg > a:hover > .hexagon > path {
+    fill: #084ca1;
+    opacity: 1;
+}
+
+a#lgzpp-tile:hover > g#lgzpp-logo path {
+    fill: #f9ca4f;
+}
+
+a#pldw-tile:hover > g#pldw-logo > path.watra_plomien_duzy {
+    fill: #f9ca4f;
+}
+
+a#pldw-tile:hover > g#pldw-logo > path.watra_plomien_maly {
+    fill: #ff373e;
+}
+
+a#pldw-tile:hover > g#pldw-logo > path.watra_polano {
+    fill: #9d5528;
+}
+
+.watra_plomien_duzy,
+.watra_plomien_maly,
+.watra_polano,
+g#lgzpp-logo path {
+    transition: all 0.2s ease-in;
+}
+
+
+
+header .navbar-header .navbar-brand h1 {
+    padding-left: 3rem;
+    background-image: url(../assets/pasieka_logo_white.svg);
+}
+
+header .navbar-header .navbar-brand h1 span.subheading {
+    font-size: 1.1rem;
+}
+
+
+
+
+
+#hero-image {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 3.25rem);
+    background-image: url(../assets/assets_pasieka/pasieka_hero_image_xsmall.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: left bottom;
+}
+
+@media screen and (min-width: 768px) {
+    #hero-image {
+        background-image: url(../assets/assets_pasieka/pasieka_hero_image_small.jpg);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #hero-image {
+        background-image: url(../assets/assets_pasieka/pasieka_hero_image_medium.jpg);
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    #hero-image {
+        background-image: url(../assets/assets_pasieka/pasieka_hero_image_large.jpg);
+    }
+}
+
+.hero-flexbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logotypes-flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logotypes-flexbox-container svg{
+    height: 300px;
+    width: auto;
+}
+
+.logo-container, .logotypes-text-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logotypes-text-container {
+    align-self: center;
+}
+
+.scout-group-name {
+    font-family: 'museo500';
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    line-height: 2.25rem;
+}
+
+.scout-group-name > span {
+}
+
+.team-name {
+    font-family: 'museo300';
+    font-size: 1.5rem;
+    color: #fff;
+    opacity: 0.8;
+    text-align: center;
+    height: 34px;
+    line-height: 1.75rem;
+}
+
+@media screen and (min-width: 450px) {
+    .logotypes-flexbox-container svg{
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .logotypes-flexbox-container svg{
+        height: 400px;
+        margin-right: 20px;
+    }
+    
+    .scout-group-name {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    
+    .team-name {
+        font-size: 2rem;
+        height: 45px;
+        line-height: 2.25rem;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .scout-group-name {
+        text-align: left;
+        padding-bottom: 0.5rem;
+    }
+    
+    .team-name {
+        text-align: left;
+        width: 450px;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .logotypes-flexbox-container svg{
+        height: 450px;
+        margin-right: 20px;
+    }
+    
+    .scout-group-name {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    
+    .team-name {
+        font-size: 2.25rem;
+        height: 57px;
+        width: 550px;
+        line-height: 2.25rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logotypes-flexbox-container svg{
+        height: 500px;
+    }
+    
+    .scout-group-name {
+        font-size: 3.5rem;
+        line-height: 4rem
+    }
+    
+    .team-name {
+        font-size: 2.5rem;
+        height: 68px;
+        width: 640px;
+        line-height: 2.5rem;
+    }
+}
